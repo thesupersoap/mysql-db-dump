@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `profiles`
+-- Table structure for table `PROFILES`
 --
 
-DROP TABLE IF EXISTS `profiles`;
+DROP TABLE IF EXISTS `PROFILES`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `profiles` (
+CREATE TABLE `PROFILES` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `first_name` varchar(255) NOT NULL,
   `last_name` varchar(255) NOT NULL,
@@ -47,13 +47,13 @@ CREATE TABLE `profiles` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `profiles`
+-- Dumping data for table `PROFILES`
 --
 
-LOCK TABLES `profiles` WRITE;
-/*!40000 ALTER TABLE `profiles` DISABLE KEYS */;
-INSERT INTO `profiles` VALUES (306,'Second','Bossman',20,'nasfsdf\n',NULL,'2021-09-18 19:19:01',NULL,'2021-09-19 00:58:03',NULL,252000,'2020-08-17',NULL),(307,'asdfdsfdf','asdfasdf',3,'ddd',NULL,'2021-09-18 19:20:28',NULL,NULL,NULL,22222,'2021-09-08',NULL),(309,'Leslie','Knope',25,'city counsel member. proud lover of waffles.does it all',NULL,'2021-09-18 19:25:58',NULL,'2021-09-18 21:34:13',NULL,12340,'2021-11-11',NULL),(310,'Ben','Wyatt',33,'mayor of ice town. ice clown.',NULL,'2021-09-18 19:26:14',NULL,'2021-09-19 03:12:53',NULL,1000,'2021-08-13','yo@yo.com'),(311,'xcvxcv','xcvxcv',22,'22',NULL,'2021-09-18 19:27:42',NULL,NULL,NULL,222,'2020-09-18',NULL),(312,'JOEY','BNBN',5,'asdfsadf',NULL,'2021-09-18 19:33:47',NULL,'2021-09-18 21:44:13',NULL,222222,'2021-09-18',NULL),(313,'my','namejeff',25,'my name jeffie boy',NULL,'2021-09-18 21:36:27',NULL,'2021-09-18 21:44:23',NULL,23020,'2013-10-20',NULL),(315,'raveonettes','raveon',3,'ravoenetees',NULL,'2021-09-18 21:45:07',NULL,NULL,NULL,22,'2021-09-08',NULL),(318,'cccc','cvcv',2,'sdfasdfasdf',NULL,'2021-09-18 22:06:43',NULL,'2021-09-19 00:58:37',NULL,2232323,'2021-08-31',NULL),(320,'Tycho','Brahe',24,'spacemen look at space.',NULL,'2021-09-19 03:14:43',NULL,'2021-09-19 03:14:56',NULL,20,'1592-06-01',NULL),(321,'ayy','dayman',22,'ayyy',NULL,'2021-09-19 21:59:51',NULL,NULL,NULL,22,'2020-09-01',NULL);
-/*!40000 ALTER TABLE `profiles` ENABLE KEYS */;
+LOCK TABLES `PROFILES` WRITE;
+/*!40000 ALTER TABLE `PROFILES` DISABLE KEYS */;
+INSERT INTO `PROFILES` VALUES (306,'Second','Bossman',20,'nasfsdf\n',NULL,'2021-09-18 19:19:01',NULL,'2021-09-19 00:58:03',NULL,252000,'2020-08-17',NULL),(307,'asdfdsfdf','asdfasdf',3,'ddd',NULL,'2021-09-18 19:20:28',NULL,NULL,NULL,22222,'2021-09-08',NULL),(309,'Leslie','Knope',25,'city counsel member. proud lover of waffles.does it all',NULL,'2021-09-18 19:25:58',NULL,'2021-09-18 21:34:13',NULL,12340,'2021-11-11',NULL),(310,'Ben','Wyatt',33,'mayor of ice town. ice clown.',NULL,'2021-09-18 19:26:14',NULL,'2021-09-19 03:12:53',NULL,1000,'2021-08-13','yo@yo.com'),(311,'xcvxcv','xcvxcv',22,'22',NULL,'2021-09-18 19:27:42',NULL,NULL,NULL,222,'2020-09-18',NULL),(312,'JOEY','BNBN',5,'asdfsadf',NULL,'2021-09-18 19:33:47',NULL,'2021-09-18 21:44:13',NULL,222222,'2021-09-18',NULL),(313,'my','namejeff',25,'my name jeffie boy',NULL,'2021-09-18 21:36:27',NULL,'2021-09-18 21:44:23',NULL,23020,'2013-10-20',NULL),(315,'raveonettes','raveon',3,'ravoenetees',NULL,'2021-09-18 21:45:07',NULL,NULL,NULL,22,'2021-09-08',NULL),(318,'cccc','cvcv',2,'sdfasdfasdf',NULL,'2021-09-18 22:06:43',NULL,'2021-09-19 00:58:37',NULL,2232323,'2021-08-31',NULL),(320,'Tycho','Brahe',24,'spacemen look at space.',NULL,'2021-09-19 03:14:43',NULL,'2021-09-19 03:14:56',NULL,20,'1592-06-01',NULL),(321,'ayy','dayman',22,'ayyy',NULL,'2021-09-19 21:59:51',NULL,NULL,NULL,22,'2020-09-01',NULL);
+/*!40000 ALTER TABLE `PROFILES` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
